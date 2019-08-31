@@ -1,1 +1,20 @@
 // Mixins Here
+.customFlex(@display; @justify; @align) {
+  display: @display;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.customBtn(@bgc; @color; @width; @height; @borRad; @fsize) {
+  background-color: @bgc;
+  color: @color;
+  width: @width;
+  height: @height;
+  border-radius: @borRad;
+  font-size: @fsize;
+}
+
+.navbar() {
+  background: @nav-bg;
+  border: 1px solid @nav-border;
+}

@@ -1,1 +1,26 @@
 // Navigation code here
+.navigation {
+  .customFlex(flex, center, center);
+  flex-direction: column;
+  .navbar();
+
+  h1 {
+    font-size: 3rem;
+    margin: 5px 0px;
+  }
+
+  nav {
+    margin: 10px 0px;
+    ul {
+      .customFlex(flex, space-evenly, center);
+      width: 350px;
+
+      li {
+        a {
+          color: @nav-font;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
