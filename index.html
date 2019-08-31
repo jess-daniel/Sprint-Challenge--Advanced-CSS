@@ -7,6 +7,7 @@
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/index.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
@@ -17,11 +18,25 @@
 <body>
 
  <!-- navigation code here -->
-
+  <div class="navigation" id="navbar">
+    <!-- <div class="heading"> -->
+      <h1>SpaceWalkers</h1>
+    <!-- </div> -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+  </div>
   <div class="container home">
 
     <header class="intro">
        <!-- image code here -->
+       <img src="img/main-header.png" alt="">
 
       <h2>Lift Off</h2>
     
@@ -60,6 +75,15 @@
           <img src="img/space-walk.png" alt="Space walking astronaut">
       </div>
 
+    </section>
+    <section>
+        <div class="newsletter-form">
+            <h2>Subscribe To Our Magazine</h2>
+            <form action="">
+              Name: <input type="text" name="name" id="">
+              Email: <input type="email" name="email" id="">
+            </form>
+          </div>
     </section>
 
     <footer>
