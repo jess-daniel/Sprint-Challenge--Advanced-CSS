@@ -107,7 +107,7 @@
       width: 46%;
       margin-left: 4%;
       @media @phone {
-       .maxWidth();
+        .maxWidth();
       }
 
       img {
@@ -116,5 +116,17 @@
         border-radius: 10px;
       }
     }
+  }
+  .newsletter-form {
+    .customFlex(flex, center, center);
+    flex-direction: column;
+    margin: 50px 10px;
+    background: @nav-bg;
+    border: 1px solid @nav-border;
+    padding: 5px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
   }
 } // home
